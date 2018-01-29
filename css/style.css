@@ -109,6 +109,7 @@ ul {
 .nav a {
   text-decoration: none;
   color: #616161;
+  padding: 1.5em;
 }
 
 .nav a:hover {
@@ -145,9 +146,9 @@ main {
 
 .hero {
   float: left;
-  width: 60%;
+  width: 100%;
   position: relative;
-  background-image: url("./images/dog.jpg");
+  background-image: url("../images/dog.jpg");
   background-size: cover;
   height: 300px;
 }
@@ -173,7 +174,7 @@ main {
 
 .top-news {
   float: right;
-  width: 40%;
+  width: 100%;
   border-bottom: 1px solid #E0E0E0;
   padding: 1em;
 }
@@ -202,6 +203,7 @@ main {
 .top-news__item a {
   text-decoration: none;
   color: #666;
+  padding: 1.5em inherit;
 }
 
 .top-news__item a:hover,
@@ -217,7 +219,7 @@ main {
  */
 
 .scores {
-  width: 60%;
+  width: 100%;
   min-width: 150px;
   float: left;
   padding-top: 1em;
@@ -268,7 +270,7 @@ main {
 
 .weather {
   float: right;
-  width: 40%;
+  width: 100%;
   min-width: 80px;
   padding: 1em;
 }
@@ -346,6 +348,7 @@ main {
 .snippet__title a {
   text-decoration: none;
   color: #666;
+  padding: 1.5em inherit;
 }
 
 .snippet__title a:hover,
@@ -374,4 +377,5 @@ footer li {
 footer a {
   text-decoration: none;
   color: #333;
+  padding: 1.5em;
 }
