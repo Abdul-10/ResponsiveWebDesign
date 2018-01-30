@@ -75,6 +75,11 @@ ul {
   color: #212121;
 }
 
+@media screen and (min-width:600px) {
+  .header__title {
+    background-color: black;
+  }
+}
 
 /*
  *
